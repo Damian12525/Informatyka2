@@ -42,10 +42,10 @@ RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Damian\CLionProjects\Kalendarz
+CMAKE_SOURCE_DIR = C:\Users\Damian\Desktop\Informatyka2\Kalendarz2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Damian\CLionProjects\Kalendarz\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Kalendarz.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/Kalendarz.dir/flags.make
 
 CMakeFiles/Kalendarz.dir/main.cpp.obj: CMakeFiles/Kalendarz.dir/flags.make
 CMakeFiles/Kalendarz.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\CLionProjects\Kalendarz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kalendarz.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Kalendarz.dir\main.cpp.obj -c C:\Users\Damian\CLionProjects\Kalendarz\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kalendarz.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Kalendarz.dir\main.cpp.obj -c C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\main.cpp
 
 CMakeFiles/Kalendarz.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kalendarz.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\CLionProjects\Kalendarz\main.cpp > CMakeFiles\Kalendarz.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\main.cpp > CMakeFiles\Kalendarz.dir\main.cpp.i
 
 CMakeFiles/Kalendarz.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kalendarz.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Damian\CLionProjects\Kalendarz\main.cpp -o CMakeFiles\Kalendarz.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\main.cpp -o CMakeFiles\Kalendarz.dir\main.cpp.s
 
 CMakeFiles/Kalendarz.dir/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/Kalendarz.dir/main.cpp.obj.provides.build: CMakeFiles/Kalendarz.dir/m
 
 CMakeFiles/Kalendarz.dir/Cal.cpp.obj: CMakeFiles/Kalendarz.dir/flags.make
 CMakeFiles/Kalendarz.dir/Cal.cpp.obj: ../Cal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\CLionProjects\Kalendarz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Kalendarz.dir/Cal.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Kalendarz.dir\Cal.cpp.obj -c C:\Users\Damian\CLionProjects\Kalendarz\Cal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Kalendarz.dir/Cal.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Kalendarz.dir\Cal.cpp.obj -c C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\Cal.cpp
 
 CMakeFiles/Kalendarz.dir/Cal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kalendarz.dir/Cal.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\CLionProjects\Kalendarz\Cal.cpp > CMakeFiles\Kalendarz.dir\Cal.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\Cal.cpp > CMakeFiles\Kalendarz.dir\Cal.cpp.i
 
 CMakeFiles/Kalendarz.dir/Cal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kalendarz.dir/Cal.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Damian\CLionProjects\Kalendarz\Cal.cpp -o CMakeFiles\Kalendarz.dir\Cal.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\Cal.cpp -o CMakeFiles\Kalendarz.dir\Cal.cpp.s
 
 CMakeFiles/Kalendarz.dir/Cal.cpp.obj.requires:
 
@@ -118,7 +118,7 @@ Kalendarz.exe: CMakeFiles/Kalendarz.dir/build.make
 Kalendarz.exe: CMakeFiles/Kalendarz.dir/linklibs.rsp
 Kalendarz.exe: CMakeFiles/Kalendarz.dir/objects1.rsp
 Kalendarz.exe: CMakeFiles/Kalendarz.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Damian\CLionProjects\Kalendarz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Kalendarz.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Kalendarz.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Kalendarz.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +136,6 @@ CMakeFiles/Kalendarz.dir/clean:
 .PHONY : CMakeFiles/Kalendarz.dir/clean
 
 CMakeFiles/Kalendarz.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Damian\CLionProjects\Kalendarz C:\Users\Damian\CLionProjects\Kalendarz C:\Users\Damian\CLionProjects\Kalendarz\cmake-build-debug C:\Users\Damian\CLionProjects\Kalendarz\cmake-build-debug C:\Users\Damian\CLionProjects\Kalendarz\cmake-build-debug\CMakeFiles\Kalendarz.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Damian\Desktop\Informatyka2\Kalendarz2 C:\Users\Damian\Desktop\Informatyka2\Kalendarz2 C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\cmake-build-debug C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\cmake-build-debug C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\cmake-build-debug\CMakeFiles\Kalendarz.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Kalendarz.dir/depend
 

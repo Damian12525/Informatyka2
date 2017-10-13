@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Damian/CLionProjects/Kalendarz
+# Install script for directory: C:/Users/Damian/Desktop/Informatyka2/Kalendarz2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Damian/CLionProjects/Kalendarz/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Damian/Desktop/Informatyka2/Kalendarz2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
