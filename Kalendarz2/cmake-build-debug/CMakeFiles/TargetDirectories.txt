@@ -1,0 +1,3 @@
+C:/Users/Damian/CLionProjects/Kalendarz/cmake-build-debug/CMakeFiles/Kalendarz.dir
+C:/Users/Damian/CLionProjects/Kalendarz/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Damian/CLionProjects/Kalendarz/cmake-build-debug/CMakeFiles/rebuild_cache.dir

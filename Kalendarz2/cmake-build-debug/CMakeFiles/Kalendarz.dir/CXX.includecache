@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Damian/CLionProjects/Kalendarz/Cal.cpp
+Cal.h
+C:/Users/Damian/CLionProjects/Kalendarz/Cal.h
+
+C:/Users/Damian/CLionProjects/Kalendarz/Cal.h
+iostream
+-
+cstdlib
+-
+ostream
+-
+
+C:/Users/Damian/CLionProjects/Kalendarz/main.cpp
+iostream
+-
+Cal.h
+C:/Users/Damian/CLionProjects/Kalendarz/Cal.h
+
