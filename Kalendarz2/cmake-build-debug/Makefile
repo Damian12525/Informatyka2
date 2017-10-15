@@ -149,6 +149,33 @@ Cal.cpp.s:
 	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/Cal.cpp.s
 .PHONY : Cal.cpp.s
 
+DateFormatter.obj: DateFormatter.cpp.obj
+
+.PHONY : DateFormatter.obj
+
+# target to build an object file
+DateFormatter.cpp.obj:
+	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/DateFormatter.cpp.obj
+.PHONY : DateFormatter.cpp.obj
+
+DateFormatter.i: DateFormatter.cpp.i
+
+.PHONY : DateFormatter.i
+
+# target to preprocess a source file
+DateFormatter.cpp.i:
+	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/DateFormatter.cpp.i
+.PHONY : DateFormatter.cpp.i
+
+DateFormatter.s: DateFormatter.cpp.s
+
+.PHONY : DateFormatter.s
+
+# target to generate assembly for a file
+DateFormatter.cpp.s:
+	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/DateFormatter.cpp.s
+.PHONY : DateFormatter.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... Cal.obj
 	@echo ... Cal.i
 	@echo ... Cal.s
+	@echo ... DateFormatter.obj
+	@echo ... DateFormatter.i
+	@echo ... DateFormatter.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

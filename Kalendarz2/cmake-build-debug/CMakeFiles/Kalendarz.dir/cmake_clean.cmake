@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Kalendarz.dir/main.cpp.obj"
   "CMakeFiles/Kalendarz.dir/Cal.cpp.obj"
+  "CMakeFiles/Kalendarz.dir/DateFormatter.cpp.obj"
   "Kalendarz.pdb"
   "Kalendarz.exe"
   "Kalendarz.exe.manifest"

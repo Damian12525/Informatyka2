@@ -12,6 +12,7 @@
 
 
 
+
 Cal :: Cal (int year, int month , int day )
 {
     this -> year = year;
@@ -90,6 +91,18 @@ Cal operator+(int offset, Cal &old_cal) {
     old_cal.recalculate();
 
     return Cal(old_cal);
+}
+
+int Cal::getDay() {
+    return day;
+}
+
+int Cal::getMonth() {
+    return month;
+}
+
+int Cal::getYear() {
+    return year;
 }
 
 

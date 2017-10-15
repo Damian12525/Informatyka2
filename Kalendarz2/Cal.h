@@ -24,6 +24,12 @@ private:
 public:
 
 
+    int getYear();
+
+    int getMonth();
+
+    int getDay();
+
 
 
     Cal (int year = 1970, int month = 1, int day = 1);
