@@ -64,19 +64,6 @@ public:
 
 };
 
-
-
-
-/*
-class DateFormatter
-{
-public:
-    void ComputerDateFormatter(const Cal &Cal);
-    void GermanDateFormatter(const Cal &Cal);
-};
-
-*/
-
 //Cal operator+ (int offset, Cal &old_cal);
 
 
