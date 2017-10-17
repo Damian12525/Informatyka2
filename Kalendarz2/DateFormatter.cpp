@@ -1,7 +1,7 @@
 //potrzebne?
 #include "DateFormatter.h"
 
-string German::format(Date date) {
+string GermanDateFormatter::format(Date date) {
 	int y = date.getYear();
 	int m = date.getMonth();
 	int d = date.getDay();
@@ -15,7 +15,7 @@ string German::format(Date date) {
 }
 
 
-string Computer::format(Date date) {
+string ComputerDateFormatter::format(Date date) {
 	int y = date.getYear();
 	int m = date.getMonth();
 	int d = date.getDay();
