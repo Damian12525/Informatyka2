@@ -17,7 +17,7 @@ class GermanDateFormatter : public DateFormatter {
 
 class ComputerDateFormatter : public DateFormatter {
 	public:
-		virtual string format(Date date);
+		virtual std::string format(Date date);
 };
 
 #endif //KALENDARZ_DATEFORMATTER_H
