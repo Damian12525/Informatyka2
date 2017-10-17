@@ -1,38 +1,22 @@
-//
-// Created by Damian on 15.10.2017.
-//
-
 #ifndef KALENDARZ_DATEFORMATTER_H
 #define KALENDARZ_DATEFORMATTER_H
 
-#include "Cal.h"
+//potrzebne?
+#include "Date.h"
 
 class DateFormatter {
-
-
-public:
-
-    virtual string format(Cal date) = 0;
-
-
+	public:
+		virtual string format(Date date) = 0;
 };
 
-
-class German : public DateFormatter {
-public:
-
-    virtual string format(Cal date);
-
+class GermanDateFormatter : public DateFormatter {
+	public:
+		virtual string format(Date date);
 };
 
-
-class Computer : public DateFormatter {
-public:
-
-    virtual string format(Cal date);
-
-
+class ComputerDateFormatter : public DateFormatter {
+	public:
+		virtual string format(Date date);
 };
-
 
 #endif //KALENDARZ_DATEFORMATTER_H
