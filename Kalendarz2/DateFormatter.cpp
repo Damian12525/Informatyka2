@@ -1,7 +1,7 @@
 //potrzebne?
 #include "DateFormatter.h"
 
-string GermanDateFormatter::format(Date date) {
+std::string GermanDateFormatter::format(Date date) {
 	int y = date.getYear();
 	int m = date.getMonth();
 	int d = date.getDay();
@@ -9,13 +9,13 @@ string GermanDateFormatter::format(Date date) {
 	char s[11];
 	sprintf(s, "%02d.%02d.%04d\n", d, m, y);
 
-	string to_print(s);
+    std::string to_print(s);
 
 	return to_print;
 }
 
 
-string ComputerDateFormatter::format(Date date) {
+std::string ComputerDateFormatter::format(Date date) {
 	int y = date.getYear();
 	int m = date.getMonth();
 	int d = date.getDay();
@@ -23,7 +23,7 @@ string ComputerDateFormatter::format(Date date) {
 	char s[11];
 	sprintf(s, "%04d-%02d-%02d\n", y, m, d);
 
-	string to_print(s);
+    std::string to_print(s);
 
 	return to_print;
 }
