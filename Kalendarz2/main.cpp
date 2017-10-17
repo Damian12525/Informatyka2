@@ -2,21 +2,56 @@
 #include "Cal.h"
 #include "DateFormatter.h"
 
-int main() {
-    //std::cout << "Hello, World!" << std::endl;
+int main()
+{
 
+	cout << "     //***** Welcome to our Calendar *****//" << endl << endl;
+	cout << " //***** INSTRUCTION *****//" << endl << endl;
+	cout << "1 | Write date" << endl;
+	cout << "2 | currentDate + n * days" << endl;
+	cout << "3 | n * days + currentDate" << endl;
+	cout << "4 | currentDate - n * days" << endl;
+	cout << "5 | Check if Date1 == Date2 is true" << endl;
+	cout << "6 | Check if Date1 != Date2 is true" << endl;
+	cout << "7 | Show my current Date" << endl;
+	cout << "8 | Show ComputerDateFormatter" << endl;
+	cout << "9 | Show GermanDateFormatter" << endl;
 
-    Cal data (1997,7,24);
+	cout << "	[ALERT] Default date: ";
+	Cal data (1997,7,24);
 
-    data.show();
+	char key;
 
-    German GDF;
-    Computer CDF;
+	switch(key)
+	{
+		case '1':
+			break;
+		case '2':
+			break;
+		case '3':
+			break;
+		case '4':
+			break;
+		case '5':
+			break;
+		case '6':
+			break;
+		case '7':
+			break;
+		case '8':
+			break;
+		case '9':
+			break;
+	}
 
-    DateFormatter *DF = &CDF;
+	data.show();
 
-    cout << DF->format(data) << endl;
+	German GDF;
+	Computer CDF;
 
+	DateFormatter *DF = &CDF;
 
-    return 0;
+	cout << DF->format(data) << endl;
+
+	return 0;
 }
