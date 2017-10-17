@@ -62,7 +62,7 @@ Date operator+(int offset, Date &old_Date) {
 Date Date::operator-(int offset) {
 	day -= offset;
 
-	this->reCalculate()
+	this->reCalculate();
 
 	return Date();
 }

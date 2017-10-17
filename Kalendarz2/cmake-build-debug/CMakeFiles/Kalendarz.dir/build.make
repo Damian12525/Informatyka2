@@ -80,28 +80,28 @@ CMakeFiles/Kalendarz.dir/main.cpp.obj.provides: CMakeFiles/Kalendarz.dir/main.cp
 CMakeFiles/Kalendarz.dir/main.cpp.obj.provides.build: CMakeFiles/Kalendarz.dir/main.cpp.obj
 
 
-CMakeFiles/Kalendarz.dir/Cal.cpp.obj: CMakeFiles/Kalendarz.dir/flags.make
-CMakeFiles/Kalendarz.dir/Cal.cpp.obj: ../Cal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Kalendarz.dir/Cal.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Kalendarz.dir\Cal.cpp.obj -c C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\Cal.cpp
+CMakeFiles/Kalendarz.dir/Date.cpp.obj: CMakeFiles/Kalendarz.dir/flags.make
+CMakeFiles/Kalendarz.dir/Date.cpp.obj: ../Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Kalendarz.dir/Date.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Kalendarz.dir\Date.cpp.obj -c C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\Date.cpp
 
-CMakeFiles/Kalendarz.dir/Cal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kalendarz.dir/Cal.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\Cal.cpp > CMakeFiles\Kalendarz.dir\Cal.cpp.i
+CMakeFiles/Kalendarz.dir/Date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Kalendarz.dir/Date.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\Date.cpp > CMakeFiles\Kalendarz.dir\Date.cpp.i
 
-CMakeFiles/Kalendarz.dir/Cal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kalendarz.dir/Cal.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\Cal.cpp -o CMakeFiles\Kalendarz.dir\Cal.cpp.s
+CMakeFiles/Kalendarz.dir/Date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Kalendarz.dir/Date.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Damian\Desktop\Informatyka2\Kalendarz2\Date.cpp -o CMakeFiles\Kalendarz.dir\Date.cpp.s
 
-CMakeFiles/Kalendarz.dir/Cal.cpp.obj.requires:
+CMakeFiles/Kalendarz.dir/Date.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Kalendarz.dir/Cal.cpp.obj.requires
+.PHONY : CMakeFiles/Kalendarz.dir/Date.cpp.obj.requires
 
-CMakeFiles/Kalendarz.dir/Cal.cpp.obj.provides: CMakeFiles/Kalendarz.dir/Cal.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/Cal.cpp.obj.provides.build
-.PHONY : CMakeFiles/Kalendarz.dir/Cal.cpp.obj.provides
+CMakeFiles/Kalendarz.dir/Date.cpp.obj.provides: CMakeFiles/Kalendarz.dir/Date.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/Date.cpp.obj.provides.build
+.PHONY : CMakeFiles/Kalendarz.dir/Date.cpp.obj.provides
 
-CMakeFiles/Kalendarz.dir/Cal.cpp.obj.provides.build: CMakeFiles/Kalendarz.dir/Cal.cpp.obj
+CMakeFiles/Kalendarz.dir/Date.cpp.obj.provides.build: CMakeFiles/Kalendarz.dir/Date.cpp.obj
 
 
 CMakeFiles/Kalendarz.dir/DateFormatter.cpp.obj: CMakeFiles/Kalendarz.dir/flags.make
@@ -131,14 +131,14 @@ CMakeFiles/Kalendarz.dir/DateFormatter.cpp.obj.provides.build: CMakeFiles/Kalend
 # Object files for target Kalendarz
 Kalendarz_OBJECTS = \
 "CMakeFiles/Kalendarz.dir/main.cpp.obj" \
-"CMakeFiles/Kalendarz.dir/Cal.cpp.obj" \
+"CMakeFiles/Kalendarz.dir/Date.cpp.obj" \
 "CMakeFiles/Kalendarz.dir/DateFormatter.cpp.obj"
 
 # External object files for target Kalendarz
 Kalendarz_EXTERNAL_OBJECTS =
 
 Kalendarz.exe: CMakeFiles/Kalendarz.dir/main.cpp.obj
-Kalendarz.exe: CMakeFiles/Kalendarz.dir/Cal.cpp.obj
+Kalendarz.exe: CMakeFiles/Kalendarz.dir/Date.cpp.obj
 Kalendarz.exe: CMakeFiles/Kalendarz.dir/DateFormatter.cpp.obj
 Kalendarz.exe: CMakeFiles/Kalendarz.dir/build.make
 Kalendarz.exe: CMakeFiles/Kalendarz.dir/linklibs.rsp
@@ -153,7 +153,7 @@ CMakeFiles/Kalendarz.dir/build: Kalendarz.exe
 .PHONY : CMakeFiles/Kalendarz.dir/build
 
 CMakeFiles/Kalendarz.dir/requires: CMakeFiles/Kalendarz.dir/main.cpp.obj.requires
-CMakeFiles/Kalendarz.dir/requires: CMakeFiles/Kalendarz.dir/Cal.cpp.obj.requires
+CMakeFiles/Kalendarz.dir/requires: CMakeFiles/Kalendarz.dir/Date.cpp.obj.requires
 CMakeFiles/Kalendarz.dir/requires: CMakeFiles/Kalendarz.dir/DateFormatter.cpp.obj.requires
 
 .PHONY : CMakeFiles/Kalendarz.dir/requires

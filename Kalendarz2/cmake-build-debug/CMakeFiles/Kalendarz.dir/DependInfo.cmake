@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Damian/Desktop/Informatyka2/Kalendarz2/Cal.cpp" "C:/Users/Damian/Desktop/Informatyka2/Kalendarz2/cmake-build-debug/CMakeFiles/Kalendarz.dir/Cal.cpp.obj"
+  "C:/Users/Damian/Desktop/Informatyka2/Kalendarz2/Date.cpp" "C:/Users/Damian/Desktop/Informatyka2/Kalendarz2/cmake-build-debug/CMakeFiles/Kalendarz.dir/Date.cpp.obj"
   "C:/Users/Damian/Desktop/Informatyka2/Kalendarz2/DateFormatter.cpp" "C:/Users/Damian/Desktop/Informatyka2/Kalendarz2/cmake-build-debug/CMakeFiles/Kalendarz.dir/DateFormatter.cpp.obj"
   "C:/Users/Damian/Desktop/Informatyka2/Kalendarz2/main.cpp" "C:/Users/Damian/Desktop/Informatyka2/Kalendarz2/cmake-build-debug/CMakeFiles/Kalendarz.dir/main.cpp.obj"
   )

@@ -25,15 +25,15 @@ class Date
 		int getMonth();
 		int getDay();
 
-		Date reDateculate ();
+		Date reCalculate ();
 
 		Date operator+ (int offset);
 		Date operator- (int offset);
 
-		Date operator+= (int offset);
+		//Date operator+= (int offset);
 
-		bool operator== (const Date &Date2);
-		bool operator!= (const Date &Date2);
+		//bool operator== (const Date &Date2);
+		//bool operator!= (const Date &Date2);
 
 		void show ();
 

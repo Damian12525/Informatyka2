@@ -3,15 +3,16 @@
 
 //potrzebne?
 #include "Date.h"
+#include <string.h>
 
 class DateFormatter {
 	public:
-		virtual string format(Date date) = 0;
+		virtual std::string format(Date date) = 0;
 };
 
 class GermanDateFormatter : public DateFormatter {
 	public:
-		virtual string format(Date date);
+		virtual std::string format(Date date);
 };
 
 class ComputerDateFormatter : public DateFormatter {

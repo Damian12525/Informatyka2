@@ -122,32 +122,32 @@ Kalendarz/fast:
 	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/build
 .PHONY : Kalendarz/fast
 
-Cal.obj: Cal.cpp.obj
+Date.obj: Date.cpp.obj
 
-.PHONY : Cal.obj
+.PHONY : Date.obj
 
 # target to build an object file
-Cal.cpp.obj:
-	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/Cal.cpp.obj
-.PHONY : Cal.cpp.obj
+Date.cpp.obj:
+	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/Date.cpp.obj
+.PHONY : Date.cpp.obj
 
-Cal.i: Cal.cpp.i
+Date.i: Date.cpp.i
 
-.PHONY : Cal.i
+.PHONY : Date.i
 
 # target to preprocess a source file
-Cal.cpp.i:
-	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/Cal.cpp.i
-.PHONY : Cal.cpp.i
+Date.cpp.i:
+	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/Date.cpp.i
+.PHONY : Date.cpp.i
 
-Cal.s: Cal.cpp.s
+Date.s: Date.cpp.s
 
-.PHONY : Cal.s
+.PHONY : Date.s
 
 # target to generate assembly for a file
-Cal.cpp.s:
-	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/Cal.cpp.s
-.PHONY : Cal.cpp.s
+Date.cpp.s:
+	$(MAKE) -f CMakeFiles\Kalendarz.dir\build.make CMakeFiles/Kalendarz.dir/Date.cpp.s
+.PHONY : Date.cpp.s
 
 DateFormatter.obj: DateFormatter.cpp.obj
 
@@ -212,9 +212,9 @@ help:
 	@echo ... Kalendarz
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Cal.obj
-	@echo ... Cal.i
-	@echo ... Cal.s
+	@echo ... Date.obj
+	@echo ... Date.i
+	@echo ... Date.s
 	@echo ... DateFormatter.obj
 	@echo ... DateFormatter.i
 	@echo ... DateFormatter.s
