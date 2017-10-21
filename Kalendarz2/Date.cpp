@@ -67,17 +67,25 @@ Date Date::operator-(int offset) {
 	return Date();
 }
 
-/*
-BRAKUJE: Date operator+= (int offset);
-*/
 
-/*
-BRAKUJE: bool operator== (const Date &Date2);
-*/
+Date& Date::operator+= (const int offset) {   //jw
+	this->day += offset;
+	this->reCalculate();
+	return *this;
+}
 
-/*
-bool operator!= (const Date &Date2);
-*/
+
+bool Date::operator== (Date &date1) const {  //jw
+	if( (this->year == date1.year) && (this->month== date1.month) && (this->day == date1.day))
+		return true;
+	else
+		return false;
+}
+
+bool Date::operator!= (Date &date1) const { //jw
+	return !(*this == date1);
+}
+
 
 void Date::show() {
 	std::cout << day << "-" << month << "-" << year << std::endl;

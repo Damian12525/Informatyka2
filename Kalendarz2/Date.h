@@ -29,11 +29,9 @@ class Date
 
 		Date operator+ (int offset);
 		Date operator- (int offset);
-
-		//Date operator+= (int offset);
-
-		//bool operator== (const Date &Date2);
-		//bool operator!= (const Date &Date2);
+		Date& operator+= (int offset);					//jw
+		bool operator== (Date &date1) const;   //jw
+		bool operator!= (Date &date2) const;			//jw
 
 		void show ();
 
