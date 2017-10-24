@@ -76,10 +76,7 @@ Date& Date::operator+= (const int offset) {
 
 
 bool Date::operator== (Date &date1) const {
-	if( (year == date1.year) && (month== date1.month) && (day == date1.day))
-		return true;
-	else
-		return false;
+	return (year == date1.year) && (month== date1.month) && (day == date1.day);
 }
 
 bool Date::operator!= (Date &date1) const {
