@@ -30,14 +30,22 @@ Date Date::reCalculate() {
 	{
 		month++;
 		day = day % daysPerMonth[month-2];
+		
+		if(month == 12)
+			month = 1;
 	}
 
 	while(day < 1)
 	{
 		month--;
 		day = daysPerMonth[month-1] + day;
+		
+		if(month == -1)
+			month = 12;
 	}
-
+	
+	
+	
 	return Date();
 }
 
