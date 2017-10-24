@@ -1,4 +1,3 @@
-//potrzebne?
 #include "DateFormatter.h"
 
 std::string GermanDateFormatter::format(Date date) {
@@ -10,10 +9,9 @@ std::string GermanDateFormatter::format(Date date) {
 	sprintf(s, "%02d.%02d.%04d\n", d, m, y);
 
     std::string to_print(s);
-
+	
 	return to_print;
 }
-
 
 std::string ComputerDateFormatter::format(Date date) {
 	int y = date.getYear();
