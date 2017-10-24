@@ -43,8 +43,6 @@ Date Date::reCalculate() {
 			month = 12;
 	}
 	
-	
-	
 	return Date();
 }
 
@@ -74,27 +72,24 @@ Date Date::operator-(int offset) {
 	return Date();
 }
 
-
-Date& Date::operator+= (const int offset) {   //jw
+Date& Date::operator+= (const int offset) {
 	this->day += offset;
 	this->reCalculate();
 	return *this;
 }
 
 
-bool Date::operator== (Date &date1) const {  //jw
+bool Date::operator== (Date &date1) const {
 	if( (this->year == date1.year) && (this->month== date1.month) && (this->day == date1.day))
 		return true;
 	else
 		return false;
 }
 
-bool Date::operator!= (Date &date1) const { //jw
+bool Date::operator!= (Date &date1) const {
 	return !(*this == date1);
 }
-
 
 void Date::show() {
 	std::cout << day << "-" << month << "-" << year << std::endl;
 }
-
