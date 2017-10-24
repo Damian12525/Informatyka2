@@ -21,7 +21,7 @@ int Date::getMonth() { return month; }
 
 int Date::getYear() { return year; }
 
-Date Date::reCalculate() {
+void Date::reCalculate() {
 	year += day / 365;
 	day = day % 365;
 
@@ -43,7 +43,6 @@ Date Date::reCalculate() {
 			month = 12;
 	}
 	
-	return Date();
 }
 
 Date Date::operator+(int offset) {
