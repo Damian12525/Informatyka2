@@ -1,6 +1,6 @@
 #include "Date.h"
 
-int daysPerMonth [12] = {31,28,31,30,31,30,31,31,30,31,30,31};
+const int daysPerMonth [12] = {31,28,31,30,31,30,31,31,30,31,30,31};
 
 Date::Date (int _year, int _month , int _day ) {
 	year = _year;
@@ -22,10 +22,10 @@ int Date::getMonth() { return month; }
 int Date::getYear() { return year; }
 
 Date Date::reCalculate() {
-	this->year += day / 365;
-	this->day = day % 365;
+	year += day / 365;
+	day = day % 365;
 
-	while(this->day > daysPerMonth[this->month-1])
+	while(day > daysPerMonth[month-1])
 	{
 		month++;
 		day = day % daysPerMonth[month-2];
@@ -50,14 +50,11 @@ Date Date::operator+(int offset) {
 	day += offset;
 
 	this->reCalculate();
-	std::cout << "[DEBUG]     //***** NORMAL PLUS *****//" << std::endl;
-
+	
 	return Date(*this);
 }
 
 Date operator+(int offset, Date &old_Date) {
-	std::cout << "[DEBUG]     //***** SUPER PLUS *****//" << std::endl;
-
 	old_Date.day += offset;
 	old_Date.reCalculate();
 
@@ -73,14 +70,14 @@ Date Date::operator-(int offset) {
 }
 
 Date& Date::operator+= (const int offset) {
-	this->day += offset;
+	day += offset;
 	this->reCalculate();
 	return *this;
 }
 
 
 bool Date::operator== (Date &date1) const {
-	if( (this->year == date1.year) && (this->month== date1.month) && (this->day == date1.day))
+	if( (year == date1.year) && (month== date1.month) && (day == date1.day))
 		return true;
 	else
 		return false;
