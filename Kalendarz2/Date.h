@@ -14,14 +14,14 @@ class Date
 
 		friend Date operator+ (int offset, Date &old_Date);
 	public:
-		Date (int year = 1970, int month = 1, int day = 1);
+        Date (int year = 1970, int month = 1, int day = 1);
 		Date (const Date &old_Date);
 
 		int getYear();
 		int getMonth();
 		int getDay();
 
-		Date reCalculate ();
+		void reCalculate ();
 
 		Date operator+ (int offset);
 		Date operator- (int offset);

@@ -30,47 +30,56 @@ void Date::reCalculate() {
 		month++;
 		day = day % daysPerMonth[month-2];
 		
-		if(month == 12)
-			month = 1;
+		if(month == 13)
+        {
+            month = 1;
+            year++;
+        }
+
 	}
+
+
 
 	while(day < 1)
 	{
 		month--;
 		day = daysPerMonth[month-1] + day;
 		
-		if(month == -1)
-			month = 12;
+		if(month == 0)
+        {
+            month = 12;
+            year--;
+        }
 	}
 	
 }
 
 Date Date::operator+(int offset) {
-	day += offset;
 
-	this->reCalculate();
-	
-	return Date(*this);
+    Date tmp (*this);
+
+    tmp.day += offset;
+
+	tmp.reCalculate();
+
+    return tmp;
 }
 
 Date operator+(int offset, Date &old_Date) {
-	old_Date.day += offset;
-	old_Date.reCalculate();
+	Date tmp = old_Date+offset;
 
-	return Date(old_Date);
+	return tmp;
 }
 
 Date Date::operator-(int offset) {
-	day -= offset;
 
-	this->reCalculate();
-
-	return Date();
+    return this->operator+(-offset);
 }
 
 Date& Date::operator+= (const int offset) {
-	day += offset;
-	this->reCalculate();
+    this->day += offset;
+    this->reCalculate();
+
 	return *this;
 }
 

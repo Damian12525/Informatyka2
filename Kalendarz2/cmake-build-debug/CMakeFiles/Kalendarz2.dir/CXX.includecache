@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Damian/Desktop/Kalendarz2/Date.cpp
+Date.h
+C:/Users/Damian/Desktop/Kalendarz2/Date.h
+
+C:/Users/Damian/Desktop/Kalendarz2/Date.h
+iostream
+-
+cstdlib
+-
+ostream
+-
+
+C:/Users/Damian/Desktop/Kalendarz2/DateFormatter.cpp
+DateFormatter.h
+C:/Users/Damian/Desktop/Kalendarz2/DateFormatter.h
+
+C:/Users/Damian/Desktop/Kalendarz2/DateFormatter.h
+sstream
+-
+Date.h
+C:/Users/Damian/Desktop/Kalendarz2/Date.h
+string.h
+-
+
+C:/Users/Damian/Desktop/Kalendarz2/main.cpp
+iostream
+-
+Date.h
+C:/Users/Damian/Desktop/Kalendarz2/Date.h
+DateFormatter.h
+C:/Users/Damian/Desktop/Kalendarz2/DateFormatter.h
+

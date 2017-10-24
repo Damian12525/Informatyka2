@@ -7,14 +7,13 @@ int main()
 
 	std::cout << "     //***** Welcome to our Calendar *****//" << std::endl << std::endl;
 	std::cout << "	[ALERT] Default date: ";
-	Date date (1997,7,24);
+	Date date (1997,1,1);
 	
-	GermanDateFormatter GDF;
-	ComputerDateFormatter CDF;
+	date.show();
 
-	DateFormatter *DF = &CDF;
+	date = date + 370;
 
-	std::cout << DF->format(date) << std::endl;
+	date.show();
 
 	return 0;
 }
