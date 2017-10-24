@@ -1,7 +1,6 @@
 #ifndef KALENDARZ_DATEFORMATTER_H
 #define KALENDARZ_DATEFORMATTER_H
 
-//potrzebne?
 #include "Date.h"
 #include <string.h>
 
