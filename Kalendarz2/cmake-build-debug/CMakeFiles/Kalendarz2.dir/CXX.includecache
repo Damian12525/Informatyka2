@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Damian/Desktop/Kalendarz2/Date.cpp
+C:/Users/Damian/Desktop/inf2/Kalendarz2/Date.cpp
 Date.h
-C:/Users/Damian/Desktop/Kalendarz2/Date.h
+C:/Users/Damian/Desktop/inf2/Kalendarz2/Date.h
 
-C:/Users/Damian/Desktop/Kalendarz2/Date.h
+C:/Users/Damian/Desktop/inf2/Kalendarz2/Date.h
 iostream
 -
 cstdlib
@@ -18,23 +18,27 @@ cstdlib
 ostream
 -
 
-C:/Users/Damian/Desktop/Kalendarz2/DateFormatter.cpp
+C:/Users/Damian/Desktop/inf2/Kalendarz2/DateFormatter.cpp
 DateFormatter.h
-C:/Users/Damian/Desktop/Kalendarz2/DateFormatter.h
+C:/Users/Damian/Desktop/inf2/Kalendarz2/DateFormatter.h
+sstream
+-
+iomanip
+-
 
-C:/Users/Damian/Desktop/Kalendarz2/DateFormatter.h
+C:/Users/Damian/Desktop/inf2/Kalendarz2/DateFormatter.h
 sstream
 -
 Date.h
-C:/Users/Damian/Desktop/Kalendarz2/Date.h
+C:/Users/Damian/Desktop/inf2/Kalendarz2/Date.h
 string.h
 -
 
-C:/Users/Damian/Desktop/Kalendarz2/main.cpp
+C:/Users/Damian/Desktop/inf2/Kalendarz2/main.cpp
 iostream
 -
 Date.h
-C:/Users/Damian/Desktop/Kalendarz2/Date.h
+C:/Users/Damian/Desktop/inf2/Kalendarz2/Date.h
 DateFormatter.h
-C:/Users/Damian/Desktop/Kalendarz2/DateFormatter.h
+C:/Users/Damian/Desktop/inf2/Kalendarz2/DateFormatter.h
 

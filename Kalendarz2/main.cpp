@@ -5,15 +5,11 @@
 int main()
 {
 
-	std::cout << "     //***** Welcome to our Calendar *****//" << std::endl << std::endl;
-	std::cout << "	[ALERT] Default date: ";
 	Date date (1997,1,1);
-	
-	date.show();
+	ComputerDateFormatter CDF;
 
-	date = date + 370;
+    std::cout<<CDF.format(date)<<std::endl;
 
-	date.show();
 
 	return 0;
 }

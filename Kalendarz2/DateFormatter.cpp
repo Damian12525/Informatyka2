@@ -1,16 +1,18 @@
 #include "DateFormatter.h"
+#include <sstream>
+#include <iomanip>
+
 
 std::string GermanDateFormatter::format(Date date) {
 	int y = date.getYear();
 	int m = date.getMonth();
 	int d = date.getDay();
 
-	char s[11];
-	sprintf(s, "%02d.%02d.%04d\n", d, m, y);
+    std::ostringstream to_print;
 
-    std::string to_print(s);
+    to_print<< std::setfill('0') << std::setw(2) <<d<<'.'<< std::setfill('0') << std::setw(2) <<m<<'.'<<y;
 	
-	return to_print;
+	return to_print.str();
 }
 
 std::string ComputerDateFormatter::format(Date date) {
@@ -18,10 +20,9 @@ std::string ComputerDateFormatter::format(Date date) {
 	int m = date.getMonth();
 	int d = date.getDay();
 
-	char s[11];
-	sprintf(s, "%04d-%02d-%02d\n", y, m, d);
+    std::ostringstream to_print;
 
-    std::string to_print(s);
+    to_print<<y<<'-'<< std::setfill('0') << std::setw(2) <<m<<'-'<< std::setfill('0') << std::setw(2) <<d;
 
-	return to_print;
+    return to_print.str();
 }
