@@ -1,6 +1,7 @@
 #include <cassert>
+#include <iostream>
 
-#include "solid-ex-lsp.hpp"
+#include "LSP.cpp"
 
 bool doSomething(Square& s) {
 	s.setSide(5);
@@ -11,6 +12,8 @@ int main() {
 	Square s = Square();
 	
 	assert(doSomething(s));
+	
+	std::cout << doSomething(s) << std::endl;
 	
 	return 0;
 }
