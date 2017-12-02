@@ -1,0 +1,32 @@
+					//***** LSP *****//
+
+//FRAGMENT main() W PLIKU solid-ex-lsp.cpp
+
+Square s = Square();
+assert(doSomething(s));
+
+doSomething(s) <-- przyk³ad ³amania zasady LSP (Liskov substitution principle)
+	* w pliku: solid-ex-lsp.hpp
+		class Square: public Rectangle { //... };
+
+	ad 1) class Rectangle zak³ada dwie d³ugoœci boków: _width i _height
+	ad 2) class Square dziedziczy publicznie po class Rectangle te dwie d³ugoœci
+		- pomimo faktu, i¿ kwadrat ma tylko d³ugoœæ jednego boku
+	ad 3) class Square dziedziczy publicznie po class Rectangle metody na dwie d³ugoœci boków
+		- pomimo faktu, i¿ kwadrat ma tylko d³ugoœc jednego boku
+
+	* w pliku: solid-ex-lsp.cpp
+		przekazujemy wskaŸnik na obiekt klasy Square
+
+	ad 1) metody obiektu Square nie pozwol¹ ustawiæ ró¿nej d³ugoœci i szerokoœci
+	ad 2) class Square dziedziczy publicznie po class Rectangle
+		- "zmienia" wartoœci prywatne
+			zamiast dwóch wartoœci ma tylko jedn¹
+		- nie zachowuje siê w ¿aden sposób podobnie
+			wzór na pole powierzchni jest inny
+		- jednak jest klas¹ dziedziczn¹
+	ad 3) BRAK LOGIKI ROZUMOWANIA (ad 2)
+
+Rozwi¹zanie (dla class Rectangle i class Square)
+	LSP.cpp
+	LSP.hpp
