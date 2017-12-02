@@ -1,12 +1,7 @@
-//
-// Created by damian on 01.12.17.
-//
-
 #include <string>
 #include <iostream>
 #include <vector>
 #include <sstream>
-
 #include <cmath>
 
 class Worker {
@@ -14,7 +9,7 @@ class Worker {
 private:
     int _id;
     std::string _name;
-    double _wage;	// Weekly wage.
+    double _weeklyWage;
     std::string _manager;
     int _leavesTaken;	// Leaves taken this year.
     int _yearsInCompany;
@@ -26,10 +21,10 @@ public:
     static const int LEAVES_ALLOWED = 10;
 
     Worker(int id, double wage, std::string manager, std::string name,
-           int leavesTaken, std::vector<int> leavesLeftPreviously) {
+           int leavesTaken, const std::vector<int> &leavesLeftPreviously) {
         _id = id;
         _name = name;
-        _wage = wage;
+        _weeklyWage = wage;
         _manager = manager;
         _leavesTaken = leavesTaken;
         _leavesLeftPreviously = leavesLeftPreviously;
@@ -37,10 +32,10 @@ public:
     }
 
 
-    int get_id(){return _id;}
+    int get_id()const{return _id;}
     std::string get_name (){ return _name;}
-    double get_wage(){ return _wage;}
-    std::string get_manager()
+    double get_weeklyWage() const { return _weeklyWage;}
+    std::string get_manager() const
     {
         if (_manager.empty())
         {
@@ -51,13 +46,13 @@ public:
             return _manager;
         }
     }
-    int get_leavesTaken(){ return _leavesTaken;}
-    int get_yearsInCompany(){ return _yearsInCompany;}
-    std::vector<int> get_leavesLeftPreviously(){ return _leavesLeftPreviously;}
+    int get_leavesTaken() const { return _leavesTaken;}
+    int get_yearsInCompany()const { return _yearsInCompany;}
+    std::vector<int> get_leavesLeftPreviously() const { return _leavesLeftPreviously;}
 
-    int get_leavesLeft() { return LEAVES_ALLOWED - _leavesTaken; }
-    double get_roundYearWage() { return round(_wage * 52); };
-    int get_years()
+    int get_leavesLeft() const { return LEAVES_ALLOWED - _leavesTaken; }
+    double get_yearlyWage() const { return round(_weeklyWage * 52); };
+    int get_years() const
     {
         int years = 3;
         if (_yearsInCompany < 3)
@@ -66,11 +61,11 @@ public:
         }
         return years;
     }
-    int get_totalLeavesLeftPreviously()
+    int get_totalLeavesLeftPreviously() const
     {
         int totalLeavesLeftPreviously = 0;
         for (int i= 0; i < get_years(); i++) {
-            totalLeavesLeftPreviously += get_leavesLeftPreviously()[get_yearsInCompany() - i - 1];
+            totalLeavesLeftPreviously += _leavesLeftPreviously[_yearsInCompany - i - 1];
         }
         return totalLeavesLeftPreviously;
     }
@@ -95,7 +90,7 @@ public:
            << "</div>";
         ss << "<div class='right'><span>" << (worker.get_leavesLeft())
            << "</span>";
-        ss << "<span>" << round(worker.get_roundYearWage()) << "</span>";
+        ss << "<span>" << round(worker.get_yearlyWage()) << "</span>";
         ss << "<span>" << worker.get_manager() << "</span>";
 
 
