@@ -64,7 +64,7 @@ public:
 
 class AreaCalculator { //jeśli coś działa - nie ruszaj
 public:
-    static double calculateArea(const std::vector<const Shape*>& shapes) {
+    static double calculateArea_new(const std::vector<const Shape*>& shapes) {
         double area = 0;
         for (const auto shape_ptr : shapes) {
                 area += shape_ptr->calculateArea();
@@ -86,7 +86,7 @@ int main() {
         v_raw.push_back(ptr.get());
     }
 
-    std::cout << "total area = " << AreaCalculator::calculateArea(v_raw) << std::endl;
+    std::cout << "total area = " << AreaCalculator::calculateArea_new(v_raw) << std::endl;
 
     return 0;
 }
