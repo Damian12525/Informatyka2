@@ -63,15 +63,6 @@ public:
 
 
 class AreaCalculator { //jeśli coś działa - nie ruszaj
-private:
-    static double calculateSquareArea(const Square& square) {
-        return square.getSide() * square.getSide();
-    }
-
-    static double calculateCircleArea(const Circle& circle) {
-        return PI * circle.getRadius() * circle.getRadius();
-    }
-
 public:
     static double calculateArea(const std::vector<const Shape*>& shapes) {
         double area = 0;
