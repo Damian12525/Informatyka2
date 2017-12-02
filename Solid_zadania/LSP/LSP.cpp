@@ -1,7 +1,7 @@
 #include <cassert>
 #include <iostream>
 
-#include "LSP.cpp"
+#include "LSP.hpp"
 
 bool doSomething(Square& s) {
 	s.setSide(5);
