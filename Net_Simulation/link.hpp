@@ -4,7 +4,13 @@
 class Link
 {
 	private:
-		
+		int nodeID;
+		int propability;
+		enum class nodeTypy{
+			"Worker",
+			"LoadingRamp",
+			"Storehouse"
+		};S
 	public:
 		
 };

@@ -4,7 +4,7 @@
 class Storehouse
 {
 	private:
-		
+		int storehouseID;
 	public:
 		
 };

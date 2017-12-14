@@ -4,7 +4,12 @@
 class Worker
 {
 	private:
-		
+		int workerID;
+		int processingTime;
+		enum class queueType{
+			"LIFO",
+			"FIFO",
+		};
 	public:
 		
 };

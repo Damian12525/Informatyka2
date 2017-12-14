@@ -4,7 +4,8 @@
 class LoadingRamp
 {
 	private:
-		
+		int rampID;
+		int deliveryInterval;
 	public:
 		
 };
